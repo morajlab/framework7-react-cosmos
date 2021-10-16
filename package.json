@@ -1,0 +1,43 @@
+{
+  "name": "framework7-react-cosmos",
+  "version": "0.0.1",
+  "description": "A basic framework7 app with react-cosmos",
+  "keywords": [
+    "framework",
+    "framework7",
+    "react",
+    "template",
+    "react-cosmos",
+    "vite"
+  ],
+  "author": {
+    "name": "Morteza Jamali",
+    "email": "mortezajamali4241@gmail.com",
+    "url": "https://moraj.ir"
+  },
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "serve": "vite preview",
+    "cosmos": "cosmos",
+    "cosmos:export": "cosmos-export"
+  },
+  "dependencies": {
+    "framework7": "^6.3.4",
+    "framework7-icons": "^5.0.3",
+    "framework7-react": "^6.3.4",
+    "glamor": "^2.20.40",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^16.9.4",
+    "@types/react": "^17.0.22",
+    "@types/react-dom": "^17.0.9",
+    "@vitejs/plugin-react": "latest",
+    "react-cosmos": "^5.6.4",
+    "vite": "^2.6.4",
+    "vite-tsconfig-paths": "^3.3.17"
+  }
+}

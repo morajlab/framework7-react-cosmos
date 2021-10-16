@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "module": "esnext",
+    "target": "esnext",
+    "lib": ["esnext", "dom"],
+    "sourceMap": true,
+    "allowJs": true,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "rootDir": "./src",
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "importHelpers": true,
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "useDefineForClassFields": true,
+    "noUnusedLocals": true,
+    "isolatedModules": true,
+    "paths": {
+      "@root/*": ["*"],
+      "@src/*": ["./src/*"],
+      "@libs/*": ["./src/libs/*"],
+      "@libs": ["./src/libs/index.ts"],
+      "@cosmos/*": ["./src/cosmos/*"],
+      "@components/*": ["./src/components/*"],
+      "@components": ["./src/components/index.ts"],
+      "@types/*": ["./src/types/*"],
+      "@types": ["./src/types/index.ts"],
+      "@utils/*": ["./src/utils/*"],
+      "@utils": ["./src/utils/index.ts"]
+    }
+  },
+  "include": ["./src/**/*", "./src/*"],
+  "exclude": ["node_modules", "build", "dist", ".cache", "public", ".cosmos"]
+}
