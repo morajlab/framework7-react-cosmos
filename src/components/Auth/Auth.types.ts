@@ -1,13 +1,5 @@
-import type {
-  IMTComponentFunction,
-  IMTComponentProps,
-  IMTStyleFunction,
-} from "@types";
+import type { IComponentFunction, IComponentProps } from "@types";
 
-export interface IAuthProps extends IMTComponentProps {}
+export interface IAuthProps extends IComponentProps {}
 
-export interface IAuthStyleProps {}
-
-export type AuthComponent = IMTComponentFunction<IAuthProps>;
-
-export type AuthStyle = IMTStyleFunction<IAuthStyleProps>;
+export type AuthComponent = IComponentFunction<IAuthProps>;

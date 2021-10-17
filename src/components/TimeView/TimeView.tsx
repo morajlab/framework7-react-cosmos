@@ -3,15 +3,13 @@ import { Styles } from "./TimeView.styles";
 import type { TimeViewComponent } from "./TimeView.types";
 
 export const TimeView: TimeViewComponent = ({ ...rest }) => {
-  const { root, time, layer } = Styles();
+  const { root } = Styles();
 
   return (
-    <div {...root}>
-      <div {...time} {...layer} {...rest}>
-        {["03", "42", "23", "PM"].map((value, key) => (
-          <div key={key}>{value}</div>
-        ))}
-      </div>
+    <div className={root} {...rest}>
+      {["03", "42", "23", "PM"].map((value, key) => (
+        <span key={key}>{value}</span>
+      ))}
     </div>
   );
 };

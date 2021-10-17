@@ -1,7 +1,2 @@
 export * from "./TimeView";
-export type {
-  ITimeViewProps,
-  ITimeViewStyleProps,
-  TimeViewComponent,
-  TimeViewStyle,
-} from "./TimeView.types";
+export type { ITimeViewProps, TimeViewComponent } from "./TimeView.types";

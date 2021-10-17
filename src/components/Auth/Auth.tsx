@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 import {
   LoginScreenTitle,
   List,
@@ -13,7 +13,7 @@ export const Auth: AuthComponent = ({ ...rest }) => {
   const { root } = Styles();
 
   return (
-    <Fragment {...root} {...rest}>
+    <div className={root} {...rest}>
       <LoginScreenTitle>Framework7</LoginScreenTitle>
       <List form>
         <ListInput label="Username" type="text" placeholder="Your username" />
@@ -31,7 +31,7 @@ export const Auth: AuthComponent = ({ ...rest }) => {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </BlockFooter>
       </List>
-    </Fragment>
+    </div>
   );
 };
 

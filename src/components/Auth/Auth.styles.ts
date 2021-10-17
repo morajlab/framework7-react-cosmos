@@ -1,10 +1,7 @@
-import { style } from "@utils";
-import type { AuthStyle } from "./Auth.types";
+import { createUseStyles } from "react-jss";
 
-export const Styles: AuthStyle = () => {
-  return {
-    root: style({}),
-  };
-};
+export const Styles = createUseStyles({
+  root: {},
+});
 
 export default Styles;

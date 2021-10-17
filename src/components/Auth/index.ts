@@ -1,7 +1,2 @@
 export * from "./Auth";
-export type {
-  IAuthStyleProps,
-  IAuthProps,
-  AuthComponent,
-  AuthStyle,
-} from "./Auth.types";
+export type { IAuthProps, AuthComponent } from "./Auth.types";

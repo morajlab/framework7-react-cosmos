@@ -1,4 +1,5 @@
 import React from "react";
-import { Base } from "@components";
+import { F7App } from "@components";
 
-export default ({ children }) => <Base>{children}</Base>;
+// Define your custom decorator component here
+export default ({ children }) => <F7App>{children}</F7App>;

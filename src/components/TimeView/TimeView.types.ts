@@ -1,13 +1,5 @@
-import type {
-  IMTStyleFunction,
-  IMTComponentProps,
-  IMTComponentFunction,
-} from "@types";
+import type { IComponentFunction, IComponentProps } from "@types";
 
-export interface ITimeViewProps extends IMTComponentProps {}
+export interface ITimeViewProps extends IComponentProps {}
 
-export interface ITimeViewStyleProps {}
-
-export type TimeViewComponent = IMTComponentFunction<ITimeViewProps>;
-
-export type TimeViewStyle = IMTStyleFunction<ITimeViewStyleProps>;
+export type TimeViewComponent = IComponentFunction<ITimeViewProps>;
