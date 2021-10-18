@@ -4,7 +4,6 @@ import {
   List,
   ListInput,
   ListButton,
-  BlockFooter,
 } from "framework7-react";
 import { Styles } from "./Auth.styles";
 import type { AuthComponent } from "./Auth.types";
@@ -25,11 +24,6 @@ export const Auth: AuthComponent = ({ ...rest }) => {
       </List>
       <List>
         <ListButton>Sign In</ListButton>
-        <BlockFooter>
-          Some text about login information.
-          <br />
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        </BlockFooter>
       </List>
     </div>
   );

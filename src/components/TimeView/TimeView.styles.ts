@@ -9,6 +9,7 @@ export const Styles = createUseStyles({
     fontSize: "50px",
     position: "relative",
     textAlign: "center",
+    userSelect: "none",
   },
 });
 
