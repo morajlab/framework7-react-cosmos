@@ -8,6 +8,8 @@ import {
 // Initialize framework7 app
 import "@libs";
 
+import "../styles.css";
+
 mountDomRenderer({ rendererConfig, decorators, fixtures });
 
 if (import.meta.hot) import.meta.hot!.accept();
