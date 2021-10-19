@@ -25,7 +25,12 @@ export const App: IComponentFunction<{}> = () => {
               </Block>
             </Tab>
             <Tab id="tab-2" className="page-content">
-              <Block>Tab 2</Block>
+              <Block>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptates maxime saepe ratione aperiam voluptatum quod placeat
+                asperiores soluta quae? Facere natus dolorem, facilis fugit
+                aliquid laudantium provident aperiam totam itaque.
+              </Block>
             </Tab>
             <Tab id="mt-profile" className="page-content">
               <Block>

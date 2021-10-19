@@ -1,74 +1,37 @@
-# My App
+# Framework7-react-cosmos
 
-## Framework7 CLI Options
-
-Framework7 app created with following options:
-
-```
-{
-  "cwd": "/home/vagrant/mmm",
-  "type": [
-    "web"
-  ],
-  "name": "My App",
-  "framework": "react",
-  "template": "tabs",
-  "bundler": "vite",
-  "cssPreProcessor": false,
-  "theming": {
-    "customColor": true,
-    "color": "#007aff",
-    "darkTheme": true,
-    "iconFonts": true,
-    "fillBars": true
-  },
-  "customBuild": false
-}
-```
+![Test](https://shields.io/badge/test-passing-brightgreen)
+![Dependency](https://shields.io/badge/dependencies-up%20to%20date-brightgreen)
+![License](https://shields.io/badge/license-MIT-green)
 
 ## Install Dependencies
 
-First of all we need to install dependencies, run in terminal
+First of all we need to install dependencies.
+
+#### with **yarn**
+
+```
+yarn install
+```
+
+#### or with **npm**
+
 ```
 npm install
 ```
 
 ## NPM Scripts
 
-* 🔥 `start` - run development server
-* 🔧 `dev` - run development server
-* 🔧 `build` - build web app for production
+- `start` - run development server
+- `dev` - run development server
+- `build` - build web app for production
+- `cosmos` - run cosmos server
+- `cosmos:export` - build and export cosmos
 
 ## Vite
 
-There is a [Vite](https://vitejs.dev) bundler setup. It compiles and bundles all "front-end" resources. You should work only with files located in `/src` folder. Vite config located in `vite.config.js`.
-## Assets
+There is a [Vite](https://vitejs.dev) bundler setup. It compiles and bundles all "front-end" resources. You should work only with files located in `/src` folder. Vite config located in `vite.config.ts`.
 
-Assets (icons, splash screens) source images located in `assets-src` folder. To generate your own icons and splash screen images, you will need to replace all assets in this directory with your own images (pay attention to image size and format), and run the following command in the project directory:
+## License
 
-```
-framework7 assets
-```
-
-Or launch UI where you will be able to change icons and splash screens:
-
-```
-framework7 assets --ui
-```
-
-
-
-## Documentation & Resources
-
-* [Framework7 Core Documentation](https://framework7.io/docs/)
-
-* [Framework7 React Documentation](https://framework7.io/react/)
-
-* [Framework7 Icons Reference](https://framework7.io/icons/)
-* [Community Forum](https://forum.framework7.io)
-
-## Support Framework7
-
-Love Framework7? Support project by donating or pledging on:
-- Patreon: https://patreon.com/framework7
-- OpenCollective: https://opencollective.com/framework7
+[MIT](./LICENSE)

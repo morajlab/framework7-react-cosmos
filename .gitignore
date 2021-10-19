@@ -153,6 +153,6 @@ sketch
 .ionide
 
 # React-Cosmos
-.cosmos/cosmos.userdeps.js
+**/cosmos.userdeps.js
 
 # End of https://www.toptal.com/developers/gitignore/api/node,react,visualstudiocode
